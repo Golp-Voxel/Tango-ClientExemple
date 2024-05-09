@@ -1,0 +1,15 @@
+GreatEyes
+
+
+DevFailed[
+DevError[
+    desc = COMM_FAILURE CORBA system exception: COMM_FAILURE_UnMarshalResults
+  origin = class Tango::DeviceAttribute __cdecl Tango::DeviceProxy::read_attribute(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &) at (C:\GitLab-Runner\builds\tango-controls\cppTango\src\client\devapi_base.cpp:5549)
+  reason = API_CorbaException
+severity = ERR]
+
+DevError[
+    desc = Failed to read_attribute on device sys/tg_greateyes/1
+  origin = class Tango::DeviceAttribute __cdecl Tango::DeviceProxy::read_attribute(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &) at (C:\GitLab-Runner\builds\tango-controls\cppTango\src\client\devapi_base.cpp:5549)
+  reason = API_CommunicationFailed
+severity = ERR]
